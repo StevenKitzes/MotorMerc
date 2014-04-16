@@ -1,0 +1,25 @@
+@font-face{
+  font-family: armalite;
+  src: local(armalite), url('../fonts/armalite.ttf') format('opentype');
+}
+
+body {
+font-size: 16px;
+font-family: armalite;
+font-weight: normal;
+}
+
+h2{
+font-size: 48px;
+font-weight: normal;
+}
+
+h3{
+font-size: 32px;
+font-weight: normal;
+}
+
+h4{
+font-size: 24px;
+font-weight: normal;
+}
