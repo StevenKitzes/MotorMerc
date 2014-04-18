@@ -4,9 +4,25 @@
 }
 
 body {
+text-align: center;
+background: black;
+color:#e3d6a8;
 font-size: 16px;
 font-family: armalite;
 font-weight: normal;
+}
+
+body a:link{
+color: #588c6e;
+}
+body a:visited{
+color: #588c6e;
+}
+body a:hover{
+color: #75b992;
+}
+body a:active{
+color: #588c6e;
 }
 
 h2{
