@@ -24,15 +24,23 @@ function getParameter(paramName) {
   return null;
 }
 
-if(getParameter("foo") == "bar") { alert("good"); }
-else{ alert("bad"); }
-
+function rdr() {
+  if(getParameter("srvc") == "fb") {
+    window.location.replace("http://www.facebook.com/motormerc.motovlogs");
+  }
+  else if(getParameter("srvc") == "tw") {
+    window.location.replace("http://www.twitter.com/motormerc");
+  }
+  else if(getParameter("srvc") == "in") {
+    window.location.replace("http://www.instagram.com/motormerc");
+  }
+}
 -->
 </script>
 
 <title>MotorMerc.com (it's dot com)</title>
 </head>
-<body>
+<body onload="rdr()">
 
 <br>
 <div class="title">
