@@ -1,80 +1,75 @@
 <!--
 stock colors:
 motormerc green:	#588c6e
-motormerc tan:		#e3d6a8
+motormerc yellow:	#e3d6a8
 -->
 
-<html lang='en'>
-<head>
-<meta charset='utf-8'>
-<link rel="stylesheet" type="text/css" href="css/main.css" />
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
 
-<script language="JavaScript">
-<!-- by user CMS on StackExchange
+		<script language="JavaScript">
+			<!-- by user CMS on StackExchange with modifications by MotorMerc -->
 
-function getParameter(paramName) {
-  var searchString = window.location.search.substring(1),
-      i, val, params = searchString.split("&");
+			function getParameter(paramName) {
+				var searchString = window.location.search.substring(1),
+					val, params = searchString.split("&");
 
-  for (i=0;i<params.length;i++) {
-    val = params[i].split("=");
-    if (val[0] == paramName) {
-      return val[1];
-    }
-  }
-  return null;
-}
+				for (var i=0;i<params.length;i++) {
+					val = params[i].split("=");
+					if (val[0] == paramName) {
+						return val[1];
+					}
+				}
+				return null;
+			}
 
-function rdr() {
-  if(getParameter("srvc") == "fb") {
-    window.location.replace("http://www.facebook.com/motormerc");
-  }
-  else if(getParameter("srvc") == "tw") {
-    window.location.replace("http://www.twitter.com/motormerc");
-  }
-  else if(getParameter("srvc") == "in") {
-    window.location.replace("http://www.instagram.com/motormerc");
-  }
-}
--->
-</script>
+			function rdr() {
+				if(getParameter("srvc") == "fb") {
+					window.location.replace("http://www.facebook.com/motormerc");
+				}
+				else if(getParameter("srvc") == "tw") {
+					window.location.replace("http://www.twitter.com/motormerc");
+				}
+				else if(getParameter("srvc") == "in") {
+					window.location.replace("http://www.instagram.com/motormerc");
+				}
+			}
 
-<title>MotorMerc.com (it's dot com)</title>
-</head>
-<body onload="rdr()">
+			rdr();
+		</script>
 
-<br>
-<div class="title">
-  <div class="title-content">
-    <img src="img/MotorMercTitle.png" />
-  </div>
-</div>
+		<title>MotorMerc.com (it's dot com)</title>
+	</head>
+	
+	<body>
+		<br>
+		<div class="sandbox">
+		  <img src="img/MotorMercTitle.png" />
+		</div>
 
-<h4>Welcome to MOtorMerc dOt cOm.  "It's dot cOm!"</h4>
+		<h4>Welcome to MOtorMerc dOt cOm.  "It's dot cOm!"</h4>
 
-<!--  my teaser video / channel trailer -->
-<div class="vid-preview">
-  <div class="vid-preview-content">
-    <iframe width="640" height="360" src="http://www.youtube.com/embed/E9_sRTPACg0" frameborder="0"></iframe>
-  </div>
-</div>
+		<!--  my channel teaser -->
+		<div class="sandbox">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLkYFx-zhGGL8yU_QQchHEYneVXC-cwRsJ&autoplay=1" frameborder="0" allowfullscreen></iframe>
+		</div>
+		
+		<h3>Follow <img class="h3-inline-motormerc" src="img/MotorMercInline.png" /> on your most favoritest social media platforms!</h3>
 
-<h3>Follow <img style="height: 0.8em; vertical-align: middle;" src="img/MotorMercTitle.png" /> on your most favoritest social media platforms!</h3>
+		<a style="color:#e3d6a8" href="http://www.youtube.com/user/motormerc"><img src="img/yt/yt50.png" /></a>
+		<img src="img/spacer25.png" />
+		<a style="color:#e3d6a8" href="http://instagram.com/motormerc"><img src="img/ig50.png" /></a>
+		<img src="img/spacer25.png" />
+		<a style="color:#e3d6a8" href="http://www.facebook.com/motormerc"><img src="img/fb/fb50.png" /></a>
+		<img src="img/spacer25.png" />
+		<a style="color:#e3d6a8" href="http://www.twitter.com/motormerc"><img src="img/tw_rounded50.png" /></a>
 
-<a style="color:#e3d6a8" href="http://www.youtube.com/user/motormerc"><img src="img/yt/yt50.png" /></a>
-<img src="img/spacer25.png" />
-<a style="color:#e3d6a8" href="http://instagram.com/motormerc"><img src="img/ig50.png" /></a>
-<img src="img/spacer25.png" />
-<a style="color:#e3d6a8" href="http://www.facebook.com/motormerc.motovlogs"><img src="img/fb/fb50.png" /></a>
-<img src="img/spacer25.png" />
-<a style="color:#e3d6a8" href="http://www.twitter.com/motormerc"><img src="img/tw_rounded50.png" /></a>
+		<br><br><hr><br>
 
-<br><br><hr><br>
-
-Thanks for visiting!  (Hotter layout scheduled for release after midterms!)<br><br>
-
-Love,<br>
-<img src="img/MotorMercTitle.png" height="32px" />
-
-<body>
+		All content is original work of MotorMerc, except for YouTube embedding and StackOverflow snippet as credited in source.<br>
+		Thanks for visiting!
+		
+	<body>
 </html>

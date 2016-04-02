@@ -1,96 +1,61 @@
 @font-face{
-  font-family: armalite;
-  src: local(armalite), url('../fonts/armalite.ttf') format('opentype');
+	font-family: armalite;
+	src: local(armalite), url('../fonts/armalite.ttf') format('opentype');
 }
 
 body {
-text-align: center;
-background: black;
-color:#e3d6a8;
-font-size: 16px;
-font-family: armalite;
-font-weight: normal;
+	text-align: center;
+	background: black;
+	color:#e3d6a8;
+	font-size: 16px;
+	font-family: armalite;
+	font-weight: normal;
 }
 
 body a:link{
-color: #588c6e;
+	color: #588c6e;
 }
 body a:visited{
-color: #588c6e;
+	color: #588c6e;
 }
 body a:hover{
-color: #75b992;
+	color: #75b992;
 }
 body a:active{
-color: #588c6e;
+	color: #588c6e;
+}
+
+div.sandbox {
+	background-image: url("../img/sand-bg.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-radius: 3em;
+	border: .7em;
+	border-color: #588c6e;
+	border-style: solid;
+	display: inline-block;
+	padding: 2em 3em;
+	text-align: center;
+	vertical-align: middle;
 }
 
 h2{
-font-size: 48px;
-font-weight: normal;
+	font-size: 48px;
+	font-weight: normal;
 }
 
 h3{
-font-size: 32px;
-font-weight: normal;
+	font-size: 32px;
+	font-weight: normal;
+	vertical-align: middle;
 }
 
 h4{
-font-size: 24px;
-font-weight: normal;
-
+	font-size: 24px;
+	font-weight: normal;
 }
 
-div.title{
-text-align: center;
-position: relative;
-padding: 0px;
-width: 900;
-height: 150;
-margin: auto;
-background-position: center center;
-background-repeat: no-repeat;
-background-image: url("../img/sand-bg.jpg");
-border-radius: 25px;
-border: 7px;
-border-style: solid;
-border-color: #588c6e;
-overflow: hidden;
-}
-
-div.title-content{
-text-align: center;
-position: relative;
-top: 50%;
-width: 800;
-height: 100;
-margin-top: -50;
-margin-left: auto; margin-right: auto;
-}
-
-div.vid-preview{
-text-align: center;
-position: relative;
-padding: 0px;
-width: 740;
-height: 460;
-margin: auto;
-background-position: center center;
-background-repeat: no-repeat;
-background-image: url("../img/sand-bg.jpg");
-border-radius: 25px;
-border: 7px;
-border-style: solid;
-border-color: #588c6e;
-overflow: hidden;
-}
-
-div.vid-preview-content{
-text-align: center;
-position: relative;
-top: 50%;
-width: 640;
-height: 360;
-margin-top: -180;
-margin-left: auto; margin-right: auto;
+img.h3-inline-motormerc{
+	height: .9em;
+	vertical-align: middle;
 }
